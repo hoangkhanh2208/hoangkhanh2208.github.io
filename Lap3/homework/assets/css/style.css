@@ -13,6 +13,18 @@ body{
     line-height: 27px;
 }
 
+.main-section{
+    margin-top: 20px;
+}
+
+.main-section h1,p{
+    padding: 30px 0;
+}
+
+.main-section h2{
+    padding: 30px 0;
+}
+
 .green{
     color: #8bc34a;
 }
@@ -125,6 +137,7 @@ body{
     background-color: #111111;
     color: #999;
     text-align: center;
+    margin-top: 50px;
 }
 
 .footer-list{
