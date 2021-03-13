@@ -67,8 +67,12 @@ body{
     color: white;
 }
 
+.nav-item a:hover{
+    color: #111111;
+}
+
 .nav-item:hover{
-    background-color: #999;
+    background-color: #dedede;
 }
 
 .container{
@@ -146,7 +150,15 @@ body{
 
 .footer-list-item{
     display: inline-block;
-    padding: 35px 18px;
+    padding: 20px 18px;
+}
+
+.footer-list-item:hover{
+    background-color: #dedede;
+}
+
+.footer-list-item a{
+    color: #999;
 }
 
 .footer-last{
