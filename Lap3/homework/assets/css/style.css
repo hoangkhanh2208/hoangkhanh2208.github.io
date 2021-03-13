@@ -37,7 +37,26 @@ body{
 
 .header{
     height: 450px;
-    background-color: aquamarine;
+    background: url('/Lap3/homework/assets/img/cay-co-don-suoi-vang-da-lat.jpg') center / cover no-repeat;
+    position: relative;
+}
+
+.text-content{
+    position: absolute;
+    color: #fff;
+    top: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+.text-heading{
+    padding: 40px;
+    font-size: 50px;
+}
+
+.text-description{
+    font-weight: 700;
+    font-size: 30px;
 }
 
 .header-img{
