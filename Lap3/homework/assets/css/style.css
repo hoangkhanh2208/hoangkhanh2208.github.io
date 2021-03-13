@@ -68,7 +68,7 @@ body{
     display: flex;
     margin-bottom: 10px;
     justify-content: space-around;
-    background-color: #111111;
+     background-color: rgba(0, 0, 0, 0.8);
 }
 
 .nav-list{
