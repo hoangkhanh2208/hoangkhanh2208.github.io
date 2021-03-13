@@ -103,7 +103,7 @@ body{
     line-height: 18px;
 }
 
-.main-item-text h4{
+.main-item-text h4,a{
     padding: 22px 0;
     color: #313131;
     line-height: 18px;
