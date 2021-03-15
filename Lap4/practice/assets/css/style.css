@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.app{
+    height: 2000px;
+    background-color: #ccc;
+}
+.nav{
+    position: fixed;
+    width: 100%;
+}
+
+.menu{
+    word-spacing: -1ch;
+}
+
+.menu-item{
+    word-spacing: normal;
+    display: inline-block;
+    position: relative;
+}
+
+.menu-link{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #111111;
+    color: white;
+
+}
+
+
+.menu-link:hover{
+    background-color: yellow;
+    color: #111111;
+    display: block;
+}
+
+.menu-item:hover > .sub-menu{
+    display: block;
+}
+
+.menu-link.active{
+    background-color: yellow;
+    color: black;
+}
+
+/* Sub-menu */
+
+.sub-menu{
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    width: 100%;
+}
+
+.sub-menu-item{
+    display: block;
+    list-style: none;
+}
+
+.sub-menu-link{
+    padding: 10px 11px;  
+    display: block;
+    text-decoration: none;
+    color: #111111;
+    background-color: #ccc;
+}
+
+.sub-menu-link:hover{
+    background-color: #888;
+}
+
+.sub-menu-item:hover > .sub-menu{
+    display: block;
+}
+
+.sub-menu-item .sub-menu{
+    top: 0;
+    left: 100%;
+}
+
+.phone{
+    border-radius: 30px;
+    padding: 10px;
+    position: fixed;
+    background-color: yellow;
+    bottom:3%;
+    right: 3%;
+}
+
+.phone-link{
+    text-decoration: none;
+    color: #111111;
+}
+
+.arrow{
+
+}
