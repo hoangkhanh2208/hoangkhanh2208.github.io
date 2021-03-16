@@ -1,0 +1,39 @@
+
+
+table,
+tr
+{
+    border: 1px solid gray;
+} 
+
+table{
+    margin: auto;
+    border-collapse: collapse;
+}
+
+thead tr{
+    text-align: left;
+}
+
+tbody td,th{
+    width: 145px;
+    padding:10px 20px;  
+}
+
+tr:nth-child(odd){
+    background-color: #ccc;
+}
+
+td > img {
+    width: 20px;
+    border-radius: 17px;
+    vertical-align: middle;
+}
+
+textarea{
+    resize: none;
+}
+
+
+
+

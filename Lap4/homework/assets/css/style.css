@@ -52,6 +52,13 @@ body{
 
 .app{
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-body{
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* BEGIN HEADER */
