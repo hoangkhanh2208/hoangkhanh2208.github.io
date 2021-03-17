@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      input {
+        display: none;
+      }
+
+      input:checked + .popup-wrapper {
+        display: block;
+      }
+
+      .popup-wrapper {
+        display: none;
+        background-color: aqua;
+      }
+
+    .label-button{
+        display: inline-block;
+        border-radius: 6px;
+        font-size: 17px;
+        line-height: 48px;
+        padding: 0 16px;
+        background-color: #42b72a;
+        color: aliceblue;
+    }
+    </style>
+  </head>
+  <body>
+    <div class="button-login">
+      <label for="popup" class="label-button">Click em </label>
+
+      <input id="popup" type="checkbox" />
+
+
+      <div class="popup-wrapper">
+        <div class="content">
+          <label for="popup"><img src="../homework/assets/img/dau-X.png" alt=""></label>
+            
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

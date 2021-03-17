@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook - Đăng nhập hoặc đăng ký</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/img/icon-facebook1.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="app">
+      <div class="container">
+        <div class="des">
+          <div class="des-left">
+            <div class="des-facebook-img">
+              <img
+                class="des-img"
+                src="./assets/img/img-text-facebook.svg"
+                alt=""
+              />
+            </div>
+            <h2 class="des-text">
+              Facebook giúp bạn kết nối và chia sẻ với mọi người trong cuộc sống
+              của bạn.
+            </h2>
+          </div>
+
+          <div class="des-right">
+            <div class="des-login">
+              <div class="des-login-box">
+                <form action="" class="login-form">
+                  <div>
+                    <div class="login-input">
+                      <input
+                        id="email"
+                        class="login-input-item out-line"
+                        name="email"
+                        type="text"
+                        placeholder="Email hoặc số điện thoại"
+                        autofocus
+                      />
+                    </div>
+                    <div class="login-input">
+                      <input
+                        id="password"
+                        name="password"
+                        class="login-input-item out-line"
+                        type="password"
+                        placeholder="Mật khẩu"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="login-button">
+                    <button class="login-button-item">Đăng nhập</button>
+                  </div>
+
+                  <div class="login-forgot-text">
+                    <a class="login-forgot-link" href="">Quên mật khẩu?</a>
+                  </div>
+
+                  <div class="login-underline"></div>
+
+                  <!-- Create an account -->
+
+                  <div class="button-login">
+                    <label for="popup" class="label-button"
+                      >Tạo tài khoản mới</label
+                    >
+
+                    <input
+                      class="button-login-input"
+                      id="popup"
+                      type="checkbox"
+                    />
+
+                   
+
+                    <div class="popup-wrapper">
+                      
+
+                      <div class="signup">
+                        <div class="signup-box">
+                         
+                          <label for="popup">
+                           <img 
+                            class="signup-close-img"
+                            src="./assets/img/dau-X.png"
+                            alt=""
+                          />
+                          </label>
+                                               
+
+                           <div class="signup-box-header">
+                            <div class="signup-box-main-header">Đăng ký</div>
+                            <div class="signup-box-sub-header">
+                              Nhanh chóng và dễ dàng
+                            </div>
+                          </div>
+
+                          <div class="signup-box-bottom">
+                            <div class="signup-input-name">
+                              <input class="name" type="text" name="last-name" id="" placeholder="Họ">
+                              <input class="name" type="text" name="first-name" id="" placeholder="Tên">
+                            </div>
+
+                            <div class="signup-input-contact">
+                              <input type="text" class="contact" name="email" placeholder="Số di động hoặc email">
+                              <input type="password" class="contact" name="password" placeholder="Mật khẩu mới">
+                            </div>
+
+                            <div class="signup-select">
+                              <div class="signup-select-title">Ngày sinh</div>
+                              <div class="signup-select-body">  
+                                <select name="date" id="date">
+                                  <option value="ngay">Ngày</option>
+                                  <option value="01">1</option>
+                                  <option value="02">2</option>
+                                  <option value="03">3</option>
+                                  <option value="04">4</option>
+                                  <option value="05">5</option>
+                                  <option value="06">6</option>
+                                  <option value="07">7</option>
+                                  <option value="08">8</option>
+                                </select>
+                                <select name="date" id="date">
+                                  <option value="thang">Tháng</option>
+                                  <option value="01">Tháng 1</option>
+                                  <option value="02">Tháng 2</option>
+                                  <option value="03">Tháng 3</option>
+                                  <option value="04">Tháng 4</option>
+                                  <option value="05">Tháng 5</option>
+                                  <option value="06">Tháng 6</option>
+                                  <option value="07">Tháng 7</option>
+                                  <option value="08">Tháng 8</option>
+                                </select>
+                                <select name="date" id="date">
+                                  <option value="thang">Năm</option>
+                                  <option value="01">2021</option>
+                                  <option value="02">2020</option>
+                                  <option value="03">2019</option>
+                                  <option value="04">2018</option>
+                                  <option value="05">2017</option>
+                                  <option value="06">2016</option>
+                                  <option value="07">2015</option>
+                                  <option value="08">2014</option>
+                                </select>
+                              </div>
+                            </div>
+
+                            <div class="signup-select">
+                              <div class="signup-select-title">Giới tính</div>
+                              <div class="signup-input-body">
+                                  <span class="signup-input-span">
+                                    <label for="nu">Nữ</label>
+                                    <input type="radio" name="gender" id="nu" >
+                                  </span>
+
+                                  <span class="signup-input-span">
+                                    <label for="nam">Nam</label>
+                                    <input type="radio" name="gender" id="nam" >
+                                  </span>
+
+                                  <span class="signup-input-span">
+                                    <label for="tuychinh">Tùy chỉnh</label>
+                                    <input type="radio" name="gender" id="tuychinh">
+                                  </span>
+
+                              </div>
+                            </div>
+
+                            <div class="signup-polycy">
+                              <p>
+                                Bằng cách nhấp vào Đăng ký, bạn đồng ý với <a href="">Điều khoản</a>, <a href="">Chính sách dữ liệu</a> và <a href="">Chính sách cookie</a> của chúng tôi. Bạn có thể nhận được thông báo của chúng tôi qua SMS và hủy nhận bất kỳ lúc nào.
+                              </p>
+                            </div>
+
+                            <div class="signup-button">
+                              <button>Đăng ký</button>
+                            </div>
+                          </div>
+                        </div>
+          
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="des-login-text">
+                <a href="">Tạo Trang</a> dành cho người nổi tiếng, nhãn hiệu
+                hoặc doanh nghiệp.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <div class="footer-info">
+            <ul class="footer-info-list">
+              <li class="footer-info-item" style="padding: initial">
+                <a href="">Tiếng việt</a>
+              </li>
+              <li class="footer-info-item"><a href="">English (UK)</a></li>
+              <li class="footer-info-item"><a href="">中文(台灣)</a></li>
+              <li class="footer-info-item"><a href="">日本語</a></li>
+              <li class="footer-info-item"><a href="">한국어</a></li>
+              <li class="footer-info-item"><a href="">ภาษาไทย</a></li>
+              <li class="footer-info-item"><a href="">Français (France)</a></li>
+              <li class="footer-info-item"><a href="">Español</a></li>
+              <li class="footer-info-item"><a href="">Português (Brasil)</a></li>
+              <li class="footer-info-item"><a href="">Deutsch</a></li>
+              <li class="footer-info-item"><a href="">Italiano</a></li>
+            </ul>
+
+            <div class="footer-info-service">
+              <ul class="footer-service-list">
+                <li><a href="">Đăng ký</a></li>
+                <li><a href="">Đăng nhập</a></li>
+                <li><a href="">Messenger</a></li>
+                <li><a href="">Facebook Lite</a></li>
+                <li><a href="">Watch</a></li>
+                <li><a href="">Danh bạ</a></li>
+                <li><a href="">Trang</a></li>
+                <li><a href="">Hạng mục Trang</a></li>
+                <li><a href="">Địa điểm</a></li>
+                <li><a href="">Trò chơi</a></li>
+                <li><a href="">Vị trí</a></li>
+                <li><a href="">Marketplace</a></li>
+                <li><a href="">Facebook Pay</a></li>
+                <li><a href="">Nhóm</a></li>
+                <li><a href="">Việc làm</a></li>
+                <li><a href="">Oculus</a></li>
+                <li><a href="">Portal</a></li>
+                <li><a href="">Instagram</a></li>
+                <li><a href="">Địa phương</a></li>
+                <li><a href="">Chiến dịch gây quỹ</a></li>
+                <li><a href="">Dịch vụ</a></li>
+                <li><a href="">Trung tâm thông tin bỏ phiếu</a></li>
+                <li><a href="">Giới thiệu</a></li>
+                <li><a href="">Tạo quảng cáo</a></li>
+                <li><a href="">Tạo Trang</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-copyright">
+              <span>Facebook © 2021</span>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
