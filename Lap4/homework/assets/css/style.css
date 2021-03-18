@@ -72,7 +72,6 @@ body{
 .header-nav-box{
     height: 25px;
     background-color: #f5f5f5;
-    z-index: 10;
 }
 
 .header-nav{
@@ -116,7 +115,7 @@ body{
     background-color: white;
     padding: 18px 0;
     position: relative;
-    width: 1308px;
+    width: 1268px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -217,7 +216,7 @@ body{
 
 .banner-box{
     height: 345px;
-    width: 1188px;
+    width: 1258px;
     position: relative; 
     margin-top: 116px;
     margin-left: auto;
