@@ -140,7 +140,7 @@ img.zoom-img:hover {
     right: 0;
     left: 0;
     top: 0;
-    z-index: 8888;
+    z-index: 100;
 }
 
 .navbar{
@@ -163,6 +163,11 @@ img.zoom-img:hover {
 
 .nav-menu{
     margin: 0 40px;
+    z-index: 200;
+}
+
+.nav-menu-list{
+    height: 30px;
 }
 
 .nav-menu-link{
@@ -170,19 +175,27 @@ img.zoom-img:hover {
     display: block;
     height: 30px;
     line-height: 28px;
-    margin: 5px;
+    /* margin: 5px; */
     padding: 0 15px;
     border-radius: 15px;
     border: 1px solid #ccc;
     color: #121212;
 }
 
-.nav-menu-item{
-    margin: 0 2px;
+.nav-menu-content:hover > .nav-menu-link{
+    height: 55px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: none;
 }
 
-.nav-menu-item:hover .sub-menu{
-   display: block;
+.nav-menu-content:hover > .sub-menu{
+    display: block;
+}
+
+.nav-menu-item{
+    margin: 0 6px;
+    
 }
 
 .search-box input{
@@ -211,16 +224,27 @@ img.zoom-img:hover {
     box-shadow: 0 4px 5px #ccc;
     top: 69px;
     left: 0;
+    z-index: 50;
 }
 
 .sub-content{
     position: relative;
     cursor: pointer;
-    flex-basis: 12%;
+    flex-basis: 11.8%;
+    overflow: hidden;
+}
+
+.sub-content img{
+    transition: transform .3s,-webkit-transform .3s;   
+}
+
+.sub-content:hover img{
+    transform: scale(1.2);
 }
 
 .sub-content:hover span{
     color: #D80F16;
+    
 }
 
 .sub-text{
@@ -235,8 +259,13 @@ img.zoom-img:hover {
     width: 310px;
 }
 
-.search-box input{
+.search-box input[type=text]{
     width: 100%;
+}
+
+.search-box input[type=text]:focus{
+    outline: none;
+    border-color: #d80f16;
 }
 
 .search-box span{
@@ -303,7 +332,7 @@ img.zoom-img:hover {
 }
 
 .content-header-left{
-    flex-basis: 74.2%;
+    flex-basis: 74.77%;
 }
 
 .header-left-main{
@@ -360,7 +389,7 @@ img.zoom-img:hover {
 }
 
 .content-header-right{
-    flex-basis: 25%;
+    flex-basis: 24.4%;
 }
 
 .header-right-item{
@@ -478,6 +507,7 @@ img.zoom-img:hover {
 
 .comic-wrap{
     transition: opacity .3s;
+    flex-basis: 15.99% ;
 }
 
 .comic-wrap:hover{
