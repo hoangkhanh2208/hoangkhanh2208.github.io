@@ -1,0 +1,12 @@
+ Chỉ ra sự giống và khác nhau giữa biến và hằng?
+
+ Giống:
+
+ * Đều dùng để lưu trữ dữ liệu
+ * Đều khai báo trước khi sử dụng
+
+ Khác:
+
+ *Hằng: Giá trị của hằng không thể thay đổi trong quá trình thực hiện chương trình.
+
+ *Biến: Giá trị của biến có thể thay đổi trong quá trình thực hiện chương trình.
